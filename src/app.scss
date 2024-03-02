@@ -1,0 +1,30 @@
+$backgroundColor: #0c0c1d;
+$textColor: lightgray;
+$fontFamily: "DM Sans", sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $fontFamily;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $backgroundColor;
+  color: $textColor;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
